@@ -1,0 +1,235 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background:url(../assets/imagens/wallhaven-e78z9l.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: MinhaFonte;
+    src: url(../assets/Fontes/04B_30__.TTF) format("truetype");
+}
+.contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    min-height: 820px;
+    height: auto;
+
+}
+.contanier img{
+    width: 260px;
+    height: 270px;
+    border-radius: 50%;
+    border: solid 4px white;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    height: 800px;  
+    width: 100%;
+}
+.conteudo{
+    background-color: black;
+    width: 1000px;
+    height: 497px;
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo img{
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+    margin-top: 57px;
+    margin-left: 50px;
+}
+h2{
+    font-size:30px;
+}
+.textos{
+    background-color: rgba(0, 0, 0, 0.611);
+    padding: 20px;
+    border-radius: 20px;
+}
+nav{
+    background-color: black;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: MinhaFonte, Helvetica, sans-serif;
+}
+#sobre{
+    width: 60%;
+    text-align: justify;
+    padding: 15px;
+}
+
+#sobre h1{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(0, 225, 34);
+    font-weight: bold;
+    padding: 8px 0;
+    position: relative;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+nav a:hover{
+    transform: scale(1.19);
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    transition: width 0.3s ease;
+    background-color:rgb(0, 225, 34);
+}
+
+
+.techs{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 0;
+    
+}
+
+.techs img{
+    width: 180px;
+    height: 180px;
+}
+
+.Tecnologias{
+    background-color: black;
+    width: 1000px;
+    height: 83%;
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.ativo::after{
+    text-decoration: underline;
+    color:rgb(0, 225, 34);
+    transition: all 0.2 ease;
+    width: 100%;
+}
+#rodape{
+    margin-bottom: 0;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#cv{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 225, 34);
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+#cv img{
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 0;
+    margin-right: 10px;
+}
+#cv:hover{
+    transform: scale(1.13);
+}
+
+.layoutProjetos{
+    background-color: black;
+    width: 1100px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.projetos{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+}
+.projeto p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.projeto img{
+    width: 300px;
+    height: 150px;
+}
+.projeto span{
+    font-weight: bold;
+}
+
+.projetos a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.projetos a:hover{
+    transform: scale(1.15);
+    transition: all 0.3s ease;
+}
+
+.projeto a{
+    text-decoration: none;
+}
+.projeto i{
+    font-size: 150px;
+    color: white;
+}
