@@ -70,13 +70,13 @@ h2{
 }
 nav{
     background-color: black;
-    height: 120px;
+    height: 100px;
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 22px;
     font-family: MinhaFonte, Helvetica, sans-serif;
 }
 #sobre{
